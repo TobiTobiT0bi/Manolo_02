@@ -8,6 +8,7 @@ TagManager:
   - GameManager
   - PlataformaMovil
   - Checkpoint
+  - enemigo
   layers:
   - Default
   - TransparentFX

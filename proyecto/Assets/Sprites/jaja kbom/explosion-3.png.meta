@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -113,9 +113,231 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: explosion-3_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 0
+        width: 76
+        height: 43
+      alignment: 9
+      pivot: {x: 0.47744024, y: 0.26076007}
+      border: {x: 0, y: 0, z: 0, w: 6}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b6130020abd6e84298f567206df10da
+      internalID: 489546980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosion-3_1
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 1
+        width: 97
+        height: 61
+      alignment: 9
+      pivot: {x: 0.517676, y: 0.2329796}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: add45211ca710fc43b3cd52258d3808a
+      internalID: -1870368748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosion-3_2
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 0
+        width: 101
+        height: 69
+      alignment: 9
+      pivot: {x: 0.49151218, y: 0.20181695}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8875d23b1b94324ab3ec7d27d55a6bf
+      internalID: -1401613184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosion-3_3
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 0
+        width: 118
+        height: 80
+      alignment: 9
+      pivot: {x: 0.50000024, y: 0.24281697}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73286900637e32b4c83b26e27f5b1596
+      internalID: 1621614630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosion-3_4
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 0
+        width: 121
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.16780522}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb994088e9d9b654ab0c4026a925ef40
+      internalID: 320047754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosion-3_5
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 0
+        width: 127
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5000005, y: 0.13565736}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a78b2f9b1b144664b961c54a34821282
+      internalID: -298860337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosion-3_6
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 0
+        width: 133
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.19995311}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c02c74a5f512e944da2a15253c3d44c3
+      internalID: -730973823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosion-3_7
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 0
+        width: 126
+        height: 80
+      alignment: 9
+      pivot: {x: 0.49319652, y: 0.18923715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9901254f147f5f46ab6d9e9feac0693
+      internalID: 1603436136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosion-3_8
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 0
+        width: 112
+        height: 80
+      alignment: 9
+      pivot: {x: 0.50765556, y: 0.19995311}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21ff8ba2e0980b9408ce7b83e436e16f
+      internalID: -398930870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosion-3_9
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 96
+        height: 80
+      alignment: 9
+      pivot: {x: 0.4910698, y: 0.21066909}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccb7293dd9ba86947b74838e94f2f9f2
+      internalID: 974446843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -126,7 +348,17 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      explosion-3_0: 489546980
+      explosion-3_1: -1870368748
+      explosion-3_2: -1401613184
+      explosion-3_3: 1621614630
+      explosion-3_4: 320047754
+      explosion-3_5: -298860337
+      explosion-3_6: -730973823
+      explosion-3_7: 1603436136
+      explosion-3_8: -398930870
+      explosion-3_9: 974446843
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
