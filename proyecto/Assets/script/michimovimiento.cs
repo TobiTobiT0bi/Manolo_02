@@ -62,6 +62,7 @@ public class michimovimiento : MonoBehaviour
         {
             rigidBody.AddForce(Vector2.up * fuerzasalto, ForceMode2D.Impulse);
             saltoRealizado = true;
+            animator.SetBool("isgrouded", true);
         }
 
         if (Input.GetKeyUp(KeyCode.UpArrow) || Input.GetKeyUp(KeyCode.W) || Input.GetKeyUp(KeyCode.Space))
@@ -157,6 +158,7 @@ public class michimovimiento : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        animator.SetBool("isgrouded", false);
         if (collision.gameObject.tag == "PlataformaMovil")
         {
             transform.parent = collision.transform;
